@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27ac3a10-ac64-454d-a73c-0f4f21d118a8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectId" id="1Z1odbPHu84Sd09DssXtfbp1IYg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Gradle.LoginSpec.Efetuar login com sucesso">
+    <configuration name="LoginSpec.Acesso a tela do sistema" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;br.com.dbccompany.home.LoginSpec.Acesso a tela do sistema&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginSpec.Efetuar login com sucesso" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;br.com.dbccompany.home.LoginSpec.Efetuar login com sucesso&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginSpec.Efetuar login com sucesso" type="JUnit" factoryName="JUnit">
+      <module name="module-testing-web-01.test" />
+      <useClassPathOnly />
+      <option name="PACKAGE_NAME" value="br.com.dbccompany.home" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dbccompany.home.LoginSpec" />
+      <option name="METHOD_NAME" value="Efetuar login com sucesso" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="module-testing-web-01.test" />
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.LoginSpec.Acesso a tela do sistema" />
+      <item itemvalue="Gradle.LoginSpec.Efetuar login com sucesso" />
+      <item itemvalue="JUnit.LoginSpec.Efetuar login com sucesso" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.LoginSpec.Efetuar login com sucesso" />
+        <item itemvalue="Gradle.LoginSpec.Acesso a tela do sistema" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27ac3a10-ac64-454d-a73c-0f4f21d118a8" name="Default Changelist" comment="" />
+      <created>1584016049103</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584016049103</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1755" y="84" key="#Project_Structure" timestamp="1584020790583">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1755" y="84" key="#Project_Structure/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584020790583" />
+    <state x="1617" y="80" width="1092" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584020219617">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1617" y="80" width="1092" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584020219617" />
+    <state x="1892" y="215" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584020210416">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1892" y="215" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584020210416" />
+    <state x="1771" y="351" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584017003329">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state x="1771" y="351" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584017003329" />
+    <state width="1529" height="141" key="GridCell.Tab.0.bottom" timestamp="1584021356412">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1529" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584021356412" />
+    <state width="1529" height="141" key="GridCell.Tab.0.center" timestamp="1584021356412">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1529" height="141" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584021356412" />
+    <state width="1529" height="141" key="GridCell.Tab.0.left" timestamp="1584021356412">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1529" height="141" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584021356412" />
+    <state width="1529" height="141" key="GridCell.Tab.0.right" timestamp="1584021356412">
+      <screen x="1366" y="0" width="1600" height="860" />
+    </state>
+    <state width="1529" height="141" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1584021356412" />
+  </component>
+</project>

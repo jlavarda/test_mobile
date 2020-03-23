@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.dbccompany.home.LoginSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-03-12T13:54:28" hostname="DBC-000882" time="21.135">
+  <properties/>
+  <testcase name="Efetuar login com sucesso" classname="br.com.dbccompany.home.LoginSpec" time="21.135">
+    <failure message="Condition failed with Exception:&#10;&#10;ib.pressionarEntrar()&#10;|  |&#10;|  org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.tagName: circle (tried for 10 second(s) with 500 milliseconds interval)&#10;|  &#9;at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)&#10;|  &#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)&#10;|  &#9;at br.com.dbccompany.support.WebDriverHelper.waitPageLoader(WebDriverHelper.groovy:15)&#10;|  &#9;at br.com.dbccompany.pageSteps.HomeStep.pressionarEntrar(HomeStep.groovy:34)&#10;|  &#9;at br.com.dbccompany.home.LoginSpec.Efetuar login com sucesso(LoginSpec.groovy:17)&#10;|  Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;circle&quot;}&#10;|    (Session info: chrome=80.0.3987.132)&#10;|  For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;|  Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;|  System info: host: 'DBC-000882', ip: '10.0.40.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'&#10;|  Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;|  Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JANAIN~1.LAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;|  Session ID: 0a05e21a21fd248d6fb2dd17dcdeb9a6&#10;|  *** Element info: {Using=tag name, value=circle}&#10;|  &#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;|  &#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;|  &#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;|  &#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;|  &#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;|  &#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;|  &#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;|  &#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:396)&#10;|  &#9;at org.openqa.selenium.By$ByTagName.findElement(By.java:320)&#10;|  &#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;|  &#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)&#10;|  &#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)&#10;|  &#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#10;|  &#9;... 3 more&#10;&lt;br.com.dbccompany.pageSteps.HomeStep@53bf7784 loginObjects=br.com.dbccompany.pageObjects.HomePageObject@796e2218 URL_ESTABELECIMENTO=http://gc-jurema.embratec.local:8502/EstabelecimentoSSL/Login/Home.cfm?cd_manutencao_oficina=&amp;fl_tipo=&amp;cd_cotacao_oficina=10:00so%20tenho%20do%20meu%20projeto driver=ChromeDriver: chrome on WINDOWS (0a05e21a21fd248d6fb2dd17dcdeb9a6)&gt;&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+ib.pressionarEntrar()
+|  |
+|  org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.tagName: circle (tried for 10 second(s) with 500 milliseconds interval)
+|  	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+|  	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+|  	at br.com.dbccompany.support.WebDriverHelper.waitPageLoader(WebDriverHelper.groovy:15)
+|  	at br.com.dbccompany.pageSteps.HomeStep.pressionarEntrar(HomeStep.groovy:34)
+|  	at br.com.dbccompany.home.LoginSpec.Efetuar login com sucesso(LoginSpec.groovy:17)
+|  Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;circle&quot;}
+|    (Session info: chrome=80.0.3987.132)
+|  For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+|  Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+|  System info: host: 'DBC-000882', ip: '10.0.40.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+|  Driver info: org.openqa.selenium.chrome.ChromeDriver
+|  Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JANAIN~1.LAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+|  Session ID: 0a05e21a21fd248d6fb2dd17dcdeb9a6
+|  *** Element info: {Using=tag name, value=circle}
+|  	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+|  	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+|  	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+|  	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+|  	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+|  	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+|  	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+|  	at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:396)
+|  	at org.openqa.selenium.By$ByTagName.findElement(By.java:320)
+|  	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+|  	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+|  	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+|  	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+|  	... 3 more
+&lt;br.com.dbccompany.pageSteps.HomeStep@53bf7784 loginObjects=br.com.dbccompany.pageObjects.HomePageObject@796e2218 URL_ESTABELECIMENTO=http://gc-jurema.embratec.local:8502/EstabelecimentoSSL/Login/Home.cfm?cd_manutencao_oficina=&amp;fl_tipo=&amp;cd_cotacao_oficina=10:00so%20tenho%20do%20meu%20projeto driver=ChromeDriver: chrome on WINDOWS (0a05e21a21fd248d6fb2dd17dcdeb9a6)&gt;
+
+	at br.com.dbccompany.home.LoginSpec.Efetuar login com sucesso(LoginSpec.groovy:17)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.tagName: circle (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at br.com.dbccompany.support.WebDriverHelper.waitPageLoader(WebDriverHelper.groovy:15)
+	at br.com.dbccompany.pageSteps.HomeStep.pressionarEntrar(HomeStep.groovy:34)
+	... 1 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;circle&quot;}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DBC-000882', ip: '10.0.40.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\JANAIN~1.LAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a05e21a21fd248d6fb2dd17dcdeb9a6
+*** Element info: {Using=tag name, value=circle}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByTagName(RemoteWebDriver.java:396)
+	at org.openqa.selenium.By$ByTagName.findElement(By.java:320)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 3 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.athaydes.spockframework.report.SpockReportExtension - Got configuration from Spock: com.athaydes.spockframework.report.internal.SpockReportsConfiguration([:])
+[Test worker] INFO com.athaydes.spockframework.report.internal.ConfigLoader - SpockReports config loaded: {com.athaydes.spockframework.report.projectVersion=Unknown, com.athaydes.spockframework.report.aggregatedJsonReportDir=, com.athaydes.spockframework.report.template.TemplateReportCreator.enabled=true, com.athaydes.spockframework.report.internal.HtmlReportCreator.printThrowableStackTrace=false, com.athaydes.spockframework.report.template.TemplateReportCreator.specTemplateFile=/templateReportCreator/spec-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.reportFileExtension=md, com.athaydes.spockframework.report.hideEmptyBlocks=false, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryTemplateFile=/templateReportCreator/summary-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryFileName=summary.md, com.athaydes.spockframework.report.internal.HtmlReportCreator.enabled=true, com.athaydes.spockframework.report.outputDir=build/spock-reports, com.athaydes.spockframework.report.projectName=, com.athaydes.spockframework.report.showCodeBlocks=false, com.athaydes.spockframework.report.internal.HtmlReportCreator.specSummaryNameOption=class_name_and_title, com.athaydes.spockframework.report.internal.HtmlReportCreator.inlineCss=true, com.athaydes.spockframework.report.internal.HtmlReportCreator.featureReportCss=spock-feature-report.css, com.athaydes.spockframework.report.testSourceRoots=src/test/groovy, com.athaydes.spockframework.report.internal.HtmlReportCreator.summaryReportCss=spock-summary-report.css, com.athaydes.spockframework.report.internal.HtmlReportCreator.excludeToc=false, com.athaydes.spockframework.report.IReportCreator=com.athaydes.spockframework.report.internal.HtmlReportCreator}
+Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 20445
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1584021272.572][WARNING]: Timed out connecting to Chrome, retrying...
+mar 12, 2020 10:54:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+[1584021274.977][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584021275.078][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584021275.180][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584021275.280][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584021275.415][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584021277.532][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+</testsuite>
